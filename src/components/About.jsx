@@ -54,7 +54,7 @@ function About() {
           </div>
 
           <div className="stat-card">
-            <h3>4</h3>
+            <h3>5</h3>
             <p>IBM Badges</p>
           </div>
 
