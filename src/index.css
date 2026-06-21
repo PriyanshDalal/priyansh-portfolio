@@ -822,3 +822,37 @@ html {
 .timeline {
   overflow-x: hidden;
 }
+
+.featured-cert {
+  max-width: 800px;
+  margin: 50px auto 0;
+  padding: 30px;
+  text-align: center;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(0,229,255,0.2);
+
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.featured-cert-img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.featured-cert h3 {
+  color: #00e5ff;
+  margin-bottom: 10px;
+}
+
+.featured-cert h4 {
+  margin-bottom: 15px;
+}
+
+.featured-cert p {
+  line-height: 1.7;
+  color: #d0d0d0;
+}

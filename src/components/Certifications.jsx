@@ -2,6 +2,7 @@ import agentic from "../assets/badges/agentic-ai.png";
 import multiagent from "../assets/badges/multiagent.png";
 import rag from "../assets/badges/rag.png";
 import aiagents from "../assets/badges/ai-agents.png";
+import agenticBadge from "../assets/certificate-agentic-ai.png";
 
 function Certifications() {
   const certs = [
@@ -46,8 +47,28 @@ function Certifications() {
           </div>
         ))}
       </div>
+
+      {/* Featured Certificate */}
+      <div className="featured-cert">
+        <img
+          src={agenticBadge}
+          alt="Make Agentic AI Work for You Certificate"
+          className="featured-cert-img"
+        />
+
+        <h3>🏆 IBM SkillsBuild Certificate</h3>
+
+        <h4>Make Agentic AI Work for You</h4>
+
+        <p>
+          Successfully completed IBM SkillsBuild training focused on
+          Agentic AI, autonomous AI systems, intelligent agents,
+          decision-making workflows and real-world AI applications.
+        </p>
+      </div>
     </section>
   );
 }
 
 export default Certifications;
+
