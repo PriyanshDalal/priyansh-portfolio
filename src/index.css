@@ -720,13 +720,16 @@ html {
 @media (max-width: 768px) {
 
   .navbar {
-    padding: 20px 5%;
-  }
+  padding: 15px 4%;
+  flex-wrap: wrap;
+}
 
   .nav-links {
-    gap: 15px;
-    font-size: 0.9rem;
-  }
+  gap: 10px;
+  font-size: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
   .hero {
     flex-direction: column;
@@ -797,4 +800,15 @@ html {
   .timeline-card {
     padding: 20px;
   }
+}
+
+.hero-content,
+.hero-image,
+.about,
+.skills,
+.projects,
+.contact,
+.certifications,
+.timeline {
+  overflow-x: hidden;
 }
