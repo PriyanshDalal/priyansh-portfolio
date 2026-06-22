@@ -36,13 +36,37 @@ function ProjectCard({ project }) {
       </div>
 
       <div className="project-buttons">
-  <button disabled className="disabled-btn">
-    Demo Coming Soon
-  </button>
 
-  <button disabled className="disabled-btn outline">
-    GitHub Coming Soon
-  </button>
+  {project.demo ? (
+    <a
+      href={project.demo}
+      target="_blank"
+      rel="noreferrer"
+      className="hero-btn"
+    >
+      Live Demo
+    </a>
+  ) : (
+    <button disabled className="disabled-btn">
+      Demo Coming Soon
+    </button>
+  )}
+
+  {project.github ? (
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noreferrer"
+      className="hero-btn outline-btn"
+    >
+      GitHub
+    </a>
+  ) : (
+    <button disabled className="disabled-btn outline">
+      GitHub Coming Soon
+    </button>
+  )}
+
 </div>
     </div>
   );

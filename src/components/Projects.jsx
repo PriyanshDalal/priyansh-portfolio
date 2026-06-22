@@ -14,8 +14,8 @@ function Projects() {
       image2: bikex2,
       desc: "Interactive 360° Bike Customization Platform with dynamic pricing and modern user experience.",
       tech: ["React", "JavaScript", "HTML", "CSS"],
-      github: "",
-      demo: "",
+      github: "https://github.com/PriyanshDalal/Bike-X",
+      demo: "https://bikex-showcase.netlify.app",
     },
     {
       title: "CareerLens",
