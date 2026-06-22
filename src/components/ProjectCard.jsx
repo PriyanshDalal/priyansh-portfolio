@@ -74,6 +74,3 @@ function ProjectCard({ project }) {
 
 export default ProjectCard;
 
-<a href="github-link" target="_blank">
-  GitHub
-</a>

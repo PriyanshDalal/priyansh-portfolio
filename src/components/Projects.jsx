@@ -23,8 +23,8 @@ function Projects() {
       image2: careerlens2,
       desc: "AI-powered Placement Predictor that analyzes CGPA, internships, projects and skills to estimate placement chances.",
       tech: ["Python", "Flask", "Pandas", "Scikit-Learn"],
-      github: "",
-      demo: "",
+      github: "https://github.com/PriyanshDalal/CareerLens",
+      demo: "https://careerlens-jck2.onrender.com/",
     },
   ];
 
