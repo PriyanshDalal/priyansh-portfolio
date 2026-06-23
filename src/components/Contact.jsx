@@ -32,7 +32,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://github.com/PriyanshDala"
+          href="https://github.com/PriyanshDalal"
           target="_blank"
           rel="noreferrer"
           className="contact-btn"
