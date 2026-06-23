@@ -348,16 +348,6 @@ button:hover {
 
 .certifications h2 {
   font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.certifications {
-  min-height: 100vh;
-  padding: 100px 10%;
-}
-
-.certifications h2 {
-  font-size: 3rem;
   margin-bottom: 50px;
 }
 
@@ -721,94 +711,165 @@ html {
 
 @media (max-width: 768px) {
 
-  .navbar {
-  padding: 15px 4%;
-  flex-wrap: wrap;
-}
-
-  .nav-links {
-  gap: 10px;
-  font-size: 0.75rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-  .hero {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-
-  padding: 120px 20px 50px;
-  height: auto;
-}
-
-  .hero-content {
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-}
-
-  .name {
-    font-size: 3rem;
-  }
-
-  .role {
-    font-size: 1.3rem;
-  }
-
-  .hero-image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-  .image-card {
-    width: 280px;
-    height: 360px;
-  }
-
-  .about {
+  .navbar{
+    padding: 12px 4%;
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo{
+    font-size: 1.4rem;
+  }
+
+  .nav-links{
+    width: 100%;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+  }
+
+  .hero{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px 40px;
+    height: auto;
+  }
+
+  .hero-content{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .name{
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+
+  .role{
+    font-size: 1.2rem;
+  }
+
+  .desc{
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .buttons{
+    justify-content: center;
+  }
+
+  .hero-image{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .image-card{
+    width: 240px;
+    height: 300px;
+  }
+
+  .about{
+    flex-direction: column;
+    text-align: center;
     padding: 80px 5%;
-    gap: 40px;
+    gap: 35px;
   }
 
   .about-left,
-  .about-right {
+  .about-right{
     width: 100%;
   }
 
-  .about-image {
-    width: 280px;
-    height: 360px;
+  .about-image{
+    width: 240px;
+    height: 300px;
     margin: auto;
   }
 
-  .about-stats {
+  .about-right h2{
+    font-size: 2.2rem;
+  }
+
+  .about-stats{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card{
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .skills{
+    padding: 80px 5%;
+  }
+
+  .skills-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card{
+    padding: 25px;
+  }
+
+  .projects{
+    padding: 80px 5%;
+  }
+
+  .projects-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .project-image{
+    height: 220px;
+  }
+
+  .project-buttons{
     flex-direction: column;
   }
 
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .project-buttons a{
+    width: 100%;
+    text-align: center;
   }
 
-  .projects-grid {
+  .certifications{
+    padding: 80px 5%;
+  }
+
+  .certifications-grid{
     grid-template-columns: 1fr;
   }
 
-  .contact-container {
-    grid-template-columns: 1fr;
+  .cert-img{
+    height: 250px;
   }
 
-  .cert-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .timeline-card {
+  .featured-cert{
     padding: 20px;
+  }
+
+  .timeline{
+    padding: 80px 5%;
+  }
+
+  .timeline-card{
+    padding: 20px;
+  }
+
+  .contact{
+    padding: 80px 5%;
+  }
+
+  .contact-btn{
+    padding: 18px;
+  }
+
+  h2{
+    text-align: center;
   }
 }
 
@@ -855,4 +916,15 @@ html {
 .featured-cert p {
   line-height: 1.7;
   color: #d0d0d0;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  overflow-x:hidden;
+}
+
+img{
+  max-width:100%;
 }
