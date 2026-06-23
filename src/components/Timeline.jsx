@@ -13,7 +13,7 @@ function Timeline() {
     {
       year: "2026",
       title: "AI Certifications & Internship Preparation",
-      desc: "Completed IBM AI certifications and focused on building industry-ready skills."
+      desc: "Completed IBM SkillsBuild AI certifications and focused on building industry-ready skills."
     }
   ];
 
