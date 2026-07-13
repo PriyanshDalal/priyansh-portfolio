@@ -115,7 +115,8 @@ button:hover {
   align-items: center;
 
   backdrop-filter: blur(15px);
-  background: rgba(255,255,255,0.03);
+  background: rgba(5,5,5,.45);
+  border-bottom:1px solid rgba(255,255,255,.05);
 }
 
 .logo {
@@ -234,16 +235,17 @@ button:hover {
 }
 
 .skill-card {
-  padding: 40px;
-  text-align: center;
+  padding:40px;
 
-  border-radius: 20px;
+  background:rgba(255,255,255,.03);
 
-  background: rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,.08);
 
-  backdrop-filter: blur(20px);
+  backdrop-filter:blur(18px);
 
-  transition: 0.3s;
+  border-radius:24px;
+
+  transition:.35s;
 }
 
 .skill-card:hover .skill-icon {
@@ -266,7 +268,8 @@ button:hover {
 }
 
 .projects h2 {
-  font-size: 3rem;
+  font-size:3.2rem;
+  font-weight:800;
   margin-bottom: 50px;
 }
 
@@ -277,11 +280,17 @@ button:hover {
 }
 
 .project-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 25px;
-  overflow: hidden;
-  transition: all 0.4s ease;
+   background:rgba(255,255,255,.03);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  backdrop-filter:blur(20px);
+
+  border-radius:28px;
+
+  overflow:hidden;
+
+  transition:.35s;
 }
 
 .project-card:hover {
@@ -361,13 +370,20 @@ button:hover {
   gap: 30px;
 }
 
-.cert-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 25px;
-  overflow: hidden;
-  transition: 0.4s ease;
-  backdrop-filter: blur(15px);
+.cert-card{
+
+  background:rgba(255,255,255,.03);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  backdrop-filter:blur(20px);
+
+  border-radius:28px;
+
+  overflow:hidden;
+
+  transition:.35s;
+
 }
 
 .cert-card:hover {
@@ -693,14 +709,25 @@ html {
 }
 
 .hero-btn {
-  padding: 14px 28px;
-  border-radius: 50px;
-  background: #00e5ff;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s;
-  display: inline-block;
+  padding:15px 30px;
+
+  border-radius:999px;
+
+  background:#00E5FF;
+
+  color:#050505;
+
+  font-weight:700;
+
+  text-decoration:none;
+
+  transition:.35s;
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
 }
 
 .hero-btn:hover {
