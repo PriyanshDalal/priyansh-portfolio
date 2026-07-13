@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ project }) {
   const [currentImage, setCurrentImage] = useState(0);
@@ -11,10 +12,11 @@ function ProjectCard({ project }) {
     }, 2500);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="project-card">
+
       <div className="project-image">
         <img
           src={images[currentImage]}
@@ -23,54 +25,31 @@ function ProjectCard({ project }) {
         />
       </div>
 
-      <h3>{project.title}</h3>
+      <div className="project-content">
 
-      <p>{project.desc}</p>
+        <h3>{project.title}</h3>
 
-      <div className="tech-stack">
-        {project.tech.map((tech, i) => (
-          <span key={i} className="tech-badge">
-            {tech}
-          </span>
-        ))}
+        <p>{project.desc}</p>
+
+        <div className="tech-stack">
+          {project.tech.map((tech, i) => (
+            <span key={i} className="tech-badge">
+              {tech}
+            </span>
+          ))}
+        </div>
+
+        <Link
+          to={project.caseStudy}
+          className="view-project-btn"
+        >
+          View Project →
+        </Link>
+
       </div>
 
-      <div className="project-buttons">
-
-  {project.demo ? (
-    <a
-      href={project.demo}
-      target="_blank"
-      rel="noreferrer"
-      className="hero-btn"
-    >
-      Live Demo
-    </a>
-  ) : (
-    <button disabled className="disabled-btn">
-      Demo Coming Soon
-    </button>
-  )}
-
-  {project.github ? (
-    <a
-      href={project.github}
-      target="_blank"
-      rel="noreferrer"
-      className="hero-btn outline-btn"
-    >
-      GitHub
-    </a>
-  ) : (
-    <button disabled className="disabled-btn outline">
-      GitHub Coming Soon
-    </button>
-  )}
-
-</div>
     </div>
   );
 }
 
 export default ProjectCard;
-

@@ -16,6 +16,7 @@ function Projects() {
       tech: ["React", "JavaScript", "HTML", "CSS"],
       github: "https://github.com/PriyanshDalal/Bike-X",
       demo: "https://bikex-showcase.netlify.app",
+      caseStudy: "/projects/bikex",
     },
     {
       title: "CareerLens",
@@ -25,6 +26,7 @@ function Projects() {
       tech: ["Python", "Flask", "Pandas", "Scikit-Learn"],
       github: "https://github.com/PriyanshDalal/CareerLens",
       demo: "https://careerlens-jck2.onrender.com/",
+      caseStudy: "/projects/careerlens",
     },
   ];
 

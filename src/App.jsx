@@ -1,26 +1,16 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
-import Timeline from "./components/Timeline";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import BikeX from "./pages/BikeX";
+import CareerLens from "./pages/CareerLens";
 
 function App() {
   return (
-    <>
-  <Navbar />
-  <Hero />
-  <Projects />
-  <About />
-  <Skills />
-  <Certifications />
-  <Timeline />
-  <Contact />
-  <Footer />
-</>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects/bikex" element={<BikeX />} />
+      <Route path="/projects/careerlens" element={<CareerLens />} />
+    </Routes>
   );
 }
 
