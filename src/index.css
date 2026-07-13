@@ -88,19 +88,31 @@ button:hover {
 }
 
 .glow1 {
-  width: 350px;
-  height: 350px;
-  background: #00e5ff;
-  top: 100px;
-  right: 200px;
+  width:500px;
+
+height:500px;
+
+background:#7C3AED;
+
+opacity:.28;
+
+top:-120px;
+
+right:-150px;
 }
 
 .glow2 {
-  width: 300px;
-  height: 300px;
-  background: #7c3aed;
-  bottom: 100px;
-  left: 40%;
+  width:420px;
+
+height:420px;
+
+background:#00E5FF;
+
+opacity:.18;
+
+bottom:-120px;
+
+left:-120px;
 }
 
 .navbar {
@@ -360,7 +372,8 @@ button:hover {
 }
 
 .certifications h2 {
-  font-size: 3rem;
+  font-size:3.2rem;
+  font-weight:800;
   margin-bottom: 50px;
 }
 
@@ -414,7 +427,8 @@ button:hover {
 }
 
 .timeline h2 {
-  font-size: 3rem;
+  font-size:3.2rem;
+  font-weight:800;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -637,7 +651,8 @@ html {
 }
 
 .contact h2 {
-  font-size: 3rem;
+  font-size:3.2rem;
+  font-weight:800;
   margin-bottom: 10px;
 }
 
