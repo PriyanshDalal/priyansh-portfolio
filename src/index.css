@@ -2194,3 +2194,26 @@ grid-template-columns:1fr;
   background:#00e5ff;
   color:#000;
 }
+
+
+
+@media (max-width: 768px){
+
+.timeline{
+    padding:80px 20px;
+}
+
+.timeline-container{
+    width:100%;
+    align-items:center;
+}
+
+.timeline-card{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:25px;
+    box-sizing:border-box;
+}
+
+}
