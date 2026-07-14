@@ -1,5 +1,5 @@
-import "./Navbar.css";
 import { motion } from "framer-motion";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -10,8 +10,7 @@ function Navbar() {
       transition={{ duration: 0.8 }}
     >
       <div className="nav-left">
-        <h2 className="logo">Priyansh</h2>
-
+        <h6 className="logo">Priyansh</h6>
         <div className="status">
           <span className="status-dot"></span>
           <span>Available for Internship</span>
@@ -27,12 +26,7 @@ function Navbar() {
       </ul>
 
       <div className="nav-right">
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="resume-btn"
-        >
+        <a href="/resume.pdf" target="_blank" rel="noreferrer" className="resume-btn">
           Resume ↗
         </a>
       </div>
