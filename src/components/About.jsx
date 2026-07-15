@@ -59,7 +59,7 @@ function About() {
           </div>
 
           <div className="stat-card">
-            <h3>2028</h3>
+            <h3>2024-2028</h3>
             <p>Graduation</p>
           </div>
         </div>
