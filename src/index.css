@@ -100,7 +100,7 @@ img {
   letter-spacing: 1px;
 }
 
-/* 🔥 PREMIUM GRADIENT TEXT */
+/* PREMIUM GRADIENT TEXT */
 .name {
   font-size: 6rem;
   font-weight: 800;
@@ -642,7 +642,6 @@ img {
 
 /* ==========================
    RESPONSIVE – PREMIUM MOBILE FIX
-   🔥 YAHAN CUT FIX KIYA HAI (padding-top: 160px)
 ========================== */
 
 /* Tablet (max 900px) */
@@ -697,13 +696,13 @@ img {
   }
 }
 
-/* 🔥 MOBILE (max 768px) – CUT FIX & PREMIUM LOOK */
+/* MOBILE (max 768px) */
 @media (max-width: 768px) {
-  /* HERO – padding-top 160px taaki stack navbar clear ho */
+  /* HERO – padding-top 160px */
   .hero {
     flex-direction: column;
     text-align: center;
-    padding: 150px 5% 40px;  /* 🔥 120px se 160px kar diya */
+    padding: 150px 5% 40px;  
     height: auto;
   }
   .hero-content {
@@ -711,7 +710,7 @@ img {
     max-width: 100%;
   }
   .name {
-    font-size: 2.8rem;        /* Thoda chhota lekin premium */
+    font-size: 2.8rem;        
     line-height: 1.2;
   }
   .role {
@@ -720,7 +719,7 @@ img {
   .desc {
     font-size: 1rem;
     padding: 0 10px;
-    word-break: break-word;   /* 🔥 Cut hone se bachayega */
+    word-break: break-word;  
   }
   .buttons {
     justify-content: center;
@@ -857,13 +856,13 @@ img {
   }
 }
 
-/* 🔥 CHHOTE PHONES (max 480px) – Extra safety */
+/* FOR SMALL PHONES (max 480px) – Extra safety */
 @media (max-width: 480px) {
   .hero {
-    padding: 140px 4% 30px;   /* Aur thoda adjust */
+    padding: 140px 4% 30px;   
   }
   .name {
-    font-size: 2.2rem;        /* Aur chhota taaki pura dikhe */
+    font-size: 2.2rem;        
   }
   .role {
     font-size: 1rem;
